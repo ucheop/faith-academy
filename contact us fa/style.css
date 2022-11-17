@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* elementary school div */
+.elementary{
+    background-color: rgb(133, 167, 198);
+    width:420px;
+    height: 430px;
+    float: left;
+}
+/* elementary school title */
+.ele{
+letter-spacing: 0.1rem;
+font-size: 38px;
+font-family:palatino linotype,serif;
+color: black;
+font-weight: 100;
+text-align: center;
+/* class:font_2 */
+}
+
+::placeholder{
+    color:white ;
+    padding-left: 7px;
+}
+
+.obi ::placeholder{
+    color:grey;
+}
+
+
+input{
+    background-color: transparent;
+    border:1px solid black;
+    outline: none;
+    width: 150px;
+    height: 27px;
+    margin: 4px;
+}
+
+.container1{
+    background-color: black;
+    width: 100px;
+    height: 7px;
+    margin-left: 160px;
+}
+.list{
+    margin-left: 65px;
+}
+.telephone{
+    margin-right: 20px;
+}
+.input1{
+    margin-left: 60px;
+  float: left;
+  margin-bottom:5px;
+
+}
+.name1{
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+textarea{
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+height: 89px;
+color: white;
+padding-left: 10px;
+padding-top: 15px;
+font-size: 15px;
+width:130px ;
+margin: 4px;
+
+}
+/* middleschool */
+.middle{
+    background-color: white;
+    width:423px;
+    height: 430px;
+    float: left;
+}
+.input2{
+    margin-left: 60px;
+  float: left;
+  margin-bottom:5px;
+}
+.name2{
+    margin-bottom: 7px;
+    margin-top: 5px;
+}
+textarea.textarea1{
+    color:grey ;
+}
+.contact{
+    scroll-behavior: smooth;
+    background-image: url(./hands2.jpg);
+    width: 100%;
+    height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 25px;
+}
+.contact h2{
+    font-size: 53px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2em;
+    margin-top: 8%;
+
+
+}
+
+
+
+
+
+
