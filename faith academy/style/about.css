@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(171, 200, 226);
+    overflow: hidden;
+    height: 15vh;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+.navbar span a:hover{
+    background: none;
+}
+.navbar a{
+    font-size: 16px;
+    color: rgb(1, 38, 70);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown{
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(1, 38, 70);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    float: none;
+    color: rgb(1, 38, 70);
+    font-weight: 300;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(198, 208, 216);
+    transition: 0.3s;
+}
+.navbar a, .dropdown{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    transition: 00.5s;
+    display: block;
+}
+.fixed{
+    position: relative;
+    border: 3px solid red;
+}
+.absolute{
+    position: absolute;
+    border: 3px solid red;
+}
+
+/* HERO SECTION  */
+.hero{
+    background: url(PICTURES/Hero.jpg) fixed;
+    width: 100%;
+    height: 50vh;
+}
+.herotxt{
+    margin-left: 50%;
+    
+}
+
+/* GOVERNANCE SECTION */
+.governance
+{
+    width: 100%;
+    background-color:rgb(0, 40, 75);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 2%;
+    padding-top: 0.5%;
+}
+
+.header1
+{
+    font-weight: 50;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 300%;
+}
+
+.govline
+{
+    background-color: white;
+    width: 50px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.governance p
+{
+    text-align: center;
+    font-family: "Open sans",sans-serif;
+    font-weight: 100;
+    word-spacing: 2px;
+    font-size: medium;
+}
+
+.board
+{
+    width: 100%;
+    background-color: rgb(180, 208, 232);
+    height: 499px;
+}
+
+.boardimg
+{
+    margin-left: 65.08%;
+}
+.board_txt
+{
+    margin-top: -25%;
+    color: rgb(34, 34, 34);
+    margin-left: 20%;
+}
+
+.board_txt h1
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 130%;
+}
+
+
+ p, dl
+{
+    font-family: "Open sans",sans-serif;
+    font-size: 100%;
+    font-weight: 200;
+    line-height: 170%;
+    word-spacing: 5px;
+}
+
+
+.members
+{
+    width: 100%;
+    background-color: rgb(138, 172, 202);
+    height: 683px; 
+    margin-top: 2.5%;
+}
+
+.members_txt h1
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 130%;
+}
+
+.members_txt
+{
+    margin-top: -34%;
+    color: rgb(34, 34, 34);
+    margin-left: 53%;
+}
+
+.council_txt h1
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 130%;
+}
+
+.council_txt
+{
+    margin-top: -37%;
+    color: rgb(34, 34, 34);
+    margin-left: 18%;
+}
+
+.council
+{
+    width: 100%;
+    background-color: rgb(180, 208, 232);
+    height: 758px;
+}
+
+.councilimg
+{
+    margin-left: 64.9%;
+}
+
+.council a
+{
+    text-decoration: underline;
+    color: rgb(34, 34, 34);
+}
+
+.council a:hover
+{
+    opacity: 80%;
+}
+
+
+/* FOOTER SECTION */
+.footerbox
+{
+    background-color: rgb(8, 40, 82);
+    width: 100%;
+    margin-top: 75.7%;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.all
+{
+    margin-left: 20%;
+}
+
+.row1
+{
+    display: flex;
+    margin-top: -2%;
+}
+.col1 dl
+{
+   font-family: "Poppins", sans-serif;
+   font-weight: 50;
+   font-size: medium;
+}
+
+
+
+.col1 p
+{
+    word-spacing: 0px;
+}
+
+.col1 dt
+{
+    word-spacing: -2%;
+}
+
+
+.line1
+{
+   background-color: white;
+   width: 0.1%;
+   height: 200px;
+}
+
+.line2
+{
+   background-color: white;
+   width: 0.01%;
+   height: 200px; 
+}
+
+i
+{
+    font-size: 150%;
+    margin-top: 0.2%;
+}
+
+.row2
+{
+    display: flex;
+}
+
+.footerbox a
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.col2
+{
+    margin-left: 10%;
+}
+
+.col2 p 
+{
+    font-family: "Nunito" sans-serif;
+    word-spacing: 0px;
+}
+
+.all h1
+{
+    font-size: x-large;
+    font-weight: 200;
+}
+
+
+.end
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 50;
+    font-size: medium;
+    margin-left: 30%;
+    color: rgb(174, 174, 174);
+}
+
+.end a
+{
+    color: rgb(174, 174, 174);
+}
+
+.footerbox a:hover 
+{
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
