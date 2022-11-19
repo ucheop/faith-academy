@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+body{
+    text-align: center;
+ }
+ a{
+    color: rgb(33, 32, 32);
+    line-height: normal;
+ 
+ }
+ .news{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgb(47,46,46);
+    font-family: Dosis, Arial, Helvetica, sans-serif;
+ }
+
+ .new a{ line-height: normal;}
+
+ .news1{
+    margin-top: 100px;
+    Font-size: 36px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: rgb(86, 142, 191);
+ 
+ }
+ .news2{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+ }
+ 
+ 
+ .image1{
+    margin-top: 3px;
+ }
+ .ISSUE1{
+ Font-size: 16px;
+ Font-weight: 400;
+ Line-height: 22.4px;
+ color: rgb(255, 255, 255);
+ background-color:rgb(86, 142, 191)  ;
+ height: 5vh;
+ width: 5vw;
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-left: 10px;
+ /* margin-top: -1px; */
+ /* padding: 2px; */
+ }
+ .ISSUE1:hover{background-color: grey;}
+ .newsletter1{
+    height: 45vh;
+    background-color: rgb(154,185,212);
+    /* display: flex; */
+ }
+ .news2{
+    color: rgb(255, 255, 255);
+    /* padding: px; */
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .pic1-issues{
+    Font-size: 16px;
+ Font-weight: 400;
+ Line-height: 22.4px;
+ color: rgb(255, 255, 255);
+ background-color: rgb(32,67,98) ;
+ height: 5vh;
+ width: 5vw;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -1px;
+ padding-right: 10px;
+ padding-left: 10px;
+ /* text-decoration: none; */
+ 
+ }
+ .pic1-issues:hover{background-color: grey;}
+a {text-decoration: none;}
+ 
+ 
+ .row{
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */
+ }
+ .pic1{
+    padding: 20px;
+ }
+ .pic2{
+    padding: 20px;
+ }
+ .pic3{
+    padding: 20px;
+ }
+ .pic4{
+    padding: 20px;
+ }
