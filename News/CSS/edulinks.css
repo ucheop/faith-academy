@@ -1,0 +1,77 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/futura-lt');
+.p1{
+    margin: auto 0px 0px 250px;
+}
+
+.erltxt{
+    color: rgb(1, 38, 70);
+font-size: 18px;
+text-align: center;
+line-height: normal;
+font-weight: light;
+font-family: 'Futura LT', Arial, Helvetica, sans-serif;}
+
+td a{color: rgb(5, 99, 193);}
+
+.throll{
+    background-color: #000080;
+    color: white;
+    }
+
+.main{
+    margin-left: 250px;
+    width: 880px; 
+
+    border: 1px solid #ccc;}
+
+
+.data1, .data3, .data5{
+    background-color: #d9e2f3;
+    border-style: none;
+
+}
+.data2, .data4, .data6{background-color: white;}
+
+
+#bottom{border-top: 1px solid #ccc;
+      background-color: #f0f0f0;
+      margin-left: 250px;
+      width: 880px;
+      border-bottom: 1px solid #ccc;
+    height: 40px;}
+
+#bottom p{
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Roboto Arial, Helvetica, sans-serif;
+
+}
+
+/* .footer-container{
+    background-color: rgb(1,38,70);
+     width: 100%;
+     
+     height: 400px;
+     box-sizing: border-box;
+     box-shadow:0px 0px 0px 0px rgba(0, 0, 0, 0.7) ;
+    float: left;
+    margin: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.665);
+    
+     
+    }
+
+.footerdiv{
+     border-left: 1px solid grey;
+     height: 400px;
+     width: 400px;
+     float: left;
+     overflow: hidden; */
+
+/* .footerdiv p, a{color: rgb(204, 205, 204);} */
